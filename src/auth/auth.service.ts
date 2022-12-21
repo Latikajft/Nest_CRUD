@@ -12,4 +12,4 @@ export class AuthService{
     generateToken(payload: User) : string{
         return this.jwtService.sign(payload)
     }
-}
+} 
